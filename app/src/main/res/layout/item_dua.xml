@@ -13,14 +13,15 @@
         android:layout_marginStart="20dp">
 
         <View
-            android:layout_width="0dp"
+            android:layout_width="0.2dp"
             android:layout_height="0dp"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:background="@color/warnaGaris"/>
 
         <ImageView
             android:layout_width="10dp"
             android:layout_height="10dp"
-            android:src="@mipmap/ic_titik_merah"/>
+            android:src="@mipmap/ic_titik_biru"/>
 
         <View
             android:layout_width="0.2dp"
@@ -63,7 +64,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="liked"
+                    android:text="commented"
                     android:layout_marginStart="5dp"
                     android:textSize="14sp"/>
 
@@ -92,7 +93,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Just now"
+                    android:text="7 minutes ago"
                     android:layout_marginStart="5dp"
                     android:textColor="@color/abuAbu"
                     android:textSize="12sp"/>
