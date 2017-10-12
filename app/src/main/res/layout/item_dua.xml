@@ -3,7 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="80dp">
+    android:layout_height="80dp"
+    android:clickable="true"
+    android:foreground="?selectableItemBackground">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -13,7 +15,7 @@
         android:layout_marginStart="20dp">
 
         <View
-            android:layout_width="0.2dp"
+            android:layout_width="1dp"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:background="@color/warnaGaris"/>
@@ -24,7 +26,7 @@
             android:src="@mipmap/ic_titik_biru"/>
 
         <View
-            android:layout_width="0.2dp"
+            android:layout_width="1dp"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:background="@color/warnaGaris"/>
@@ -104,7 +106,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="0.2dp"
+            android:layout_height="1dp"
             android:layout_alignParentBottom="true"
             android:background="@color/warnaGaris"/>
 
